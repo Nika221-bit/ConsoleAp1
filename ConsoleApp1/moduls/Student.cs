@@ -15,6 +15,13 @@ public class Student
         Age = age;
         Email = email;
     }
-    
+
+    public void Print()
+    {
+        Console.WriteLine($"Name: {Name}");
+        Console.WriteLine($"Lastname: {Lastname}");
+        Console.WriteLine($"Age: {Age}");
+        Console.WriteLine($"Email: {Email}");
+    }
 }
 
